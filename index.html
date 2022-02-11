@@ -4,9 +4,37 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
     <title>Hungry Monster</title>
 </head>
 <body>
-    
+    <!-- Start search box -->
+    <div>
+        <form class="col-md-6 m-auto py-5">
+            <div class="input-group mb-3">
+                <input type="text" id="searchMeal" class="form-control" placeholder="Search for meal...">
+                <div class="input-group-append">
+                    <button type="button" class="btn btn-danger" id="searchBtn">Search</button>
+                </div>
+            </div>
+        </form>
+    </div>
+    <!-- End search box -->
+
+    <!-- Start Error message -->
+    <h3 id="errorMessage"></h3>
+    <!-- End Error message -->
+
+    <!-- Start meal details -->
+    <div id="mealDetails" ></div>
+    <!-- End meal details -->
+
+    <!-- Start searched meals -->
+    <div id="mealItems" class="row my-5 d-flex justify-content-center p-3"></div>
+    <!-- End searched meals -->
+
+    <script src="app.js"></script>
+
 </body>
 </html>

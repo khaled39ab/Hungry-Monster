@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+body{
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+    background-color: aqua;
+}
+#navbar-font a {
+    font-weight: bold;
+    font-size: 1.2em;
+    color: #3b2d64;
+}
+.nav-logo img {
+    width: 120px;
+}
+#errorMessage{
+    text-align: center;
+    color: red;
+}
+.cursor {
+    cursor: pointer;
+  }
+  .meal-details-div img {
+    width: 100%;
+    border-radius: 1em 1em 0 0;
+  }
+  #meal-details img {
+    width: 100%;
+    height: 40vh;
+    object-fit: cover;
+  }
+  #meal-details h2 {
+    color: #3b2d64;
+    font-weight: bold;
+  }
+  #meal-details p {
+    font-weight: 500;
+    margin-bottom: 0;
+  }
